@@ -9,4 +9,6 @@ Tutorial Instalasi
 6. Copy file in app/Mail/TestingMail.php
 7. Copy file in resources/views/welcome.blade.php
 
-the program will automatically run every 5 minutes, if redis have data to be sent via email.
+Note:
+1. the program will automatically run every 5 minutes, if redis have data to be sent via email.
+2. the program will receive data from the laravel_sender_queue_redis (https://github.com/rachmathidayatdev/laravel_sender_queue_redis)
